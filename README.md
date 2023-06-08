@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+👨‍💻1주차 토이프로젝트 - TodoList👨‍💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+실행 URL : https://skyllerrr.github.io/Modal/
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+🔍 코드 설명 : 전체적인 코드에 대한 자세한 설명은 코드 안에 주석으로 따로 남겼습니다. (App.js, App.css)
+<br>
 
-### `npm start`
+* 간단한 코드 설명으로는 할 일의 목록을 관리하는 'todos', 상태와 입력 필드에 입력된 텍스트를 관리하는 'todoText', 다크모드를 관리하는 'darkMode', 현재 날짜를 나타내는 'today'를 각각 useState로 상태 관리를 함 <br>
+* useEffect 훅으로 현재 날짜를 가져와 'today' 상태에 설정, 할 일을 추가하는 appTodo 함수와 할 일의 완료 여부를 지정하는 toggleComplete 함수, 할 일을 제거하는 removeTodo 함수와 다크모드 상태를 지정하는 toggleDarkMode 함수를 나타냄
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📖 실행 상태 결과 
+* 실행을 하게되면, 기본적으로 할 일 추가 및 해낸 일 체크표시가 가능하고 오늘 날짜를 표시할 수 있으며 다크모드 상태를 자유자재로 바꿀 수 있음
 
-### `npm test`
+❗ 문제점
+* 배경이랑 다른 이미지를 CSS 스타일링으로 꾸밀려고 했는데, 추가시킨 후에 다크모드 상태로 들어가면 이미지가 짤리거나 보여지지않음 (따라서 CSS 스타일링에 신경을 많이 못쓴점 양해 부탁드립니다😓) <br>
+* 다크모드를 하기 전 상태와 했을 때의 상태를 보시면, 상단의 header 밑에 underline이 쭉 그어져있는데 이 부분의 길이가 다름 (CSS로 계속해서 바꿔도 길이 변화가 일어나지 않아서 이 부분은 따로 고쳐보겠습니다.) <br>
+* 최소 기능으로 정한 "할 일을 삭제하고 수정하는 부분"이 취소선만 나타나고 화면에서 삭제가 잘 안됨 (이 부분은 제가 구글링 해보겠습니다..😥)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
