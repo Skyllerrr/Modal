@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 300px;
+}
+
+.OpenButton {
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 230px;
+  color: beige;
+  background-color: skyblue;
+  font-size: 20px;
+  line-height: bold;
+  border-radius: 30px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.CloseButton {
+  padding: 10px;
+  color: beige;
+  background-color: skyblue;
+  font-size: 20px;
+  line-height: bold;
+  margin-left: 300px;
+  border-radius: 30px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.sub-wrapper p {
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(./lion.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border: solid black;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
