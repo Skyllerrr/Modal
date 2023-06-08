@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Modal/static/css/main.b7e0e3fc.css",
+    "main.js": "/Modal/static/js/main.6f4768db.js",
+    "static/media/lion.jpg": "/Modal/static/media/lion.c5ca63a851187d02aa96.jpg",
+    "index.html": "/Modal/index.html",
+    "main.b7e0e3fc.css.map": "/Modal/static/css/main.b7e0e3fc.css.map",
+    "main.6f4768db.js.map": "/Modal/static/js/main.6f4768db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7e0e3fc.css",
+    "static/js/main.6f4768db.js"
+  ]
+}
