@@ -1,4 +1,4 @@
-👨‍💻1주차 토이프로젝트 - TodoList👨‍💻
+👨‍💻2주차 토이프로젝트 - Modal👨‍💻
 
 실행 URL : https://skyllerrr.github.io/Modal/
 
